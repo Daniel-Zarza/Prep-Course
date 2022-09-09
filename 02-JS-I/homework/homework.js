@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = iniciando;
+const nuevaString = 'iniciando';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 18;
@@ -25,17 +25,18 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) {
+function devolverString(bien hecho) {
   // "Return" la string provista: str
   // Tu código:
-  
+  return devolverString;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  var suma = x + y;
+  return suma;
 }
 
 function resta(x, y) {
